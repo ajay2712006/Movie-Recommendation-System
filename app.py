@@ -56,8 +56,7 @@ if st.button("Recommend"):
 
         index = movie[0]
 
-       if index == movie_index:
-            continue
+       if index == movie_index:continue
 
         movie_name = movies.iloc[index]["title"]
 
